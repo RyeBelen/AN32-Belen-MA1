@@ -3,7 +3,74 @@
     src: url(mont.ttf);
 }
 
-body{
+*{
+    box-sizing: border-box;
     font-family: mont;
-    background-color: whitesmoke;
+}
+
+body{
+  margin: 0px;
+}
+
+header{
+    background-color: rgb(223, 223, 223);
+    text-align: center;
+    padding: 25px;
+}
+
+.navbar{
+    background-color: rgb(58, 58, 58);
+}
+
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+
+    display: flex; 
+    justify-content: center; 
+
+}
+.navbar a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;  
+
+}
+.navbar a:hover{
+    background-color: hsl(0, 0%, 35%);
+}
+.navbar li{
+    float: left;
+}
+aside{
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+section{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+article{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+footer{
+    display: block;
+    clear:both;
+    background-color: rgb(223, 223, 223);
+    text-align: center;
+    padding: 25px;
+}
+@media screen and (max-width:600px){
+    aside, section, article{
+        float: none;
+        width: auto;
+    }
 }
