@@ -46,9 +46,15 @@ header{
 .navbar li{
     float: left;
 }
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
 aside{
     width: 20%;
-    float: left;
+    float: right;
     padding: 10px;
 }
 section{
@@ -58,7 +64,7 @@ section{
 }
 article{
     width: 40%;
-    float: left;
+    float: right;
     padding: 10px;
 }
 footer{
