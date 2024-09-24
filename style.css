@@ -1,0 +1,9 @@
+@font-face {
+    font-family: mont;
+    src: url(mont.ttf);
+}
+
+body{
+    font-family: mont;
+    background-color: whitesmoke;
+}
